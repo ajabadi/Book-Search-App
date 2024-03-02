@@ -7,8 +7,8 @@ This week's challenge is about evolving a fully functioning Google Books API sea
 
 ## Installations
 
-Node.js
-MongoDB
+- Node.js
+- MongoDB
 
 
 ## Objectives
@@ -51,6 +51,13 @@ App.jsx: Implement Apollo Provider.
 SearchBooks.jsx: Use SAVE_BOOK mutation with useMutation() Hook.
 SavedBooks.jsx: Use GET_ME query with useQuery() Hook and REMOVE_BOOK mutation.
 SignupForm.jsx and LoginForm.jsx: Use corresponding mutations for user actions.
+
+## Usage
+
+Terimanl: 
+- npm install
+- cd client
+- npm start
 
 ## Deployment
 Deployed app in on the process
