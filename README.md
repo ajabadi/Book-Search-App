@@ -30,20 +30,21 @@ The "Login/Signup" option opens a modal for user authentication.
 Logged-in users can save books to their account and view them on a "Saved Books" page.
 Users can remove books from their saved list.
 Logging out returns the user to the non-authenticated state of the app.
-Mock-Up
+
 The app allows users to search for books, save them, and view their saved books in a dedicated page.
 
 ## Implementation Details
 
-Back-End Specifications
-
+ - Back-End Specifications
 auth.js: Update to support GraphQL API.
 server.js: Implement Apollo Server as middleware.
-Schemas:
+
+- Schemas:
 index.js: Export typeDefs and resolvers.
 resolvers.js: Define queries and mutations for Mongoose models.
 typeDefs.js: Define Query, Mutation, User, Book, and Auth types.
-Front-End Specifications
+
+- Front-End Specifications
 queries.js: Contains GET_ME query for Apollo Server.
 mutations.js: Contains mutations for user login, user addition, book saving, and book removal.
 App.jsx: Implement Apollo Provider.
@@ -52,4 +53,7 @@ SavedBooks.jsx: Use GET_ME query with useQuery() Hook and REMOVE_BOOK mutation.
 SignupForm.jsx and LoginForm.jsx: Use corresponding mutations for user actions.
 
 ## Deployment
+Deployed app in on the process
+
+<img width="1307" alt="Screen Shot 2024-03-01 at 21 22 18" src="https://github.com/ajabadi/Book-Search-App/assets/145517793/cfab5e46-8ec6-4783-97a2-1f4a9206faec">
 
